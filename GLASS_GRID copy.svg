@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   sodipodi:docname="GLASS_GRID.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.09"
+     inkscape:cx="419.26606"
+     inkscape:cy="519.72477"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <rect
+       x="268.88889"
+       y="394.81481"
+       width="483.7037"
+       height="234.07407"
+       id="rect6" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#cfcfcf;fill-opacity:0.531496;stroke:none;stroke-width:3.98126;stroke-dasharray:none;stroke-opacity:1"
+       id="rect7"
+       width="172.02681"
+       height="72.407547"
+       x="19.899042"
+       y="97.930901"
+       ry="0" />
+    <rect
+       style="fill:#8df7ff;fill-opacity:1;stroke-width:3.4"
+       id="rect1"
+       width="60"
+       height="60"
+       x="37.081547"
+       y="103.82825"
+       ry="9.8392639" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke-width:3.4"
+       id="rect2"
+       width="50"
+       height="50"
+       x="41.818974"
+       y="108.93009"
+       ry="6.5595088" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#8df7ff;stroke-width:5;stroke-dasharray:none;stroke-opacity:1"
+       d="m 39.589506,135.03549 27.634259,-0.19599 c 0,0 5.291666,-0.39198 5.291666,-4.31173 0,-3.91975 0.391978,-24.69444 1.175927,-24.30247 0.78395,0.39198 -25.87037,0.39198 -25.87037,0.39198 l -3.331791,0.97994 -2.743827,3.1358 c 0,0 -1.371913,2.35185 -1.959876,5.48765 -0.587963,3.13581 -0.587964,6.46759 -0.391976,8.81945 0.195988,2.35185 0.195988,9.99537 0.195988,9.99537 z"
+       id="path2"
+       sodipodi:nodetypes="ccsscccssc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#8df7ff;stroke-width:4.99999;stroke-dasharray:none;stroke-opacity:1"
+       d="m 57.032406,106.42129 0.587963,54.87654 z"
+       id="path3" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#8df7ff;stroke-width:4.5;stroke-dasharray:none;stroke-opacity:1"
+       d="m 92.898148,147.18672 -13.915123,0.78395 c 0,0 -5.8574,-0.58596 -5.879631,-4.89969 -0.03548,-6.88463 0.587964,-15.875 0.587964,-15.875 l -0.195989,-21.16667 h 12.54321 l 3.723767,0.97994 c 0,0 1.371912,0.97994 2.547839,2.35186 1.175925,1.37191 2.939815,3.52777 2.939815,4.31172 0,0.78395 -0.391975,4.8997 -0.391975,6.27161 0,1.37191 -0.391977,27.63426 -0.391977,27.63426 z"
+       id="path4"
+       sodipodi:nodetypes="ccsccccssscc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#8df7ff;stroke-width:4.50001;stroke-dasharray:none;stroke-opacity:1"
+       d="m 72.515431,124.45215 21.950617,-0.19598 z"
+       id="path5" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,25.730122,8.4400555)"
+       id="text6"
+       style="font-size:96px;line-height:0.9;text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect6);fill:#484848;fill-opacity:1;stroke:none;stroke-width:17.0079;stroke-dasharray:none;stroke-opacity:1"
+       x="-158.92969"
+       y="0"><tspan
+         x="268.88867"
+         y="465.59816"
+         id="tspan1">GLASS
+</tspan><tspan
+         x="268.88867"
+         y="551.99816"
+         id="tspan2">GRID</tspan></text>
+    <path
+       style="fill:none;fill-opacity:0.531496;stroke:#dfdfdf;stroke-width:1.96294;stroke-dasharray:none;stroke-opacity:1"
+       d="m 19.362523,97.814184 -0.02864,73.083986 173.203167,0.0253 -0.0286,-73.134587 z"
+       id="path8" />
+  </g>
+</svg>
