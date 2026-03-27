@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this template
+-->
+<html>
+   <form id="forma">
+<p>Aprēķināt cik daudz informācijas var lejupielādēt</p>
+
+<input type="number" id="sekundes" placeholder="Sekundes">
+sekundēs, ja interneta ātrums ir 25 Mbps.
+
+<p>Atbilde</p>
+
+<input type="text" id="rezultats" readonly>
+
+<input type="radio" name="vieniba" value="KiB"> KiB
+<input type="radio" name="vieniba" value="KB"> KB
+</form>
+
+
+<script>
+function aprekinat() {
+let sek = document.getElementById("sekundes").value;
+let vieniba = document.querySelector('input[name="vieniba"]:checked');
+
+if (!sek || !vieniba) return;
+
+let dati = sek * 25 * 1000 / 8; // KB
+
+if (vieniba.value === "KiB") {
+dati = dati * 0.9765625; // pārvērš uz KiB
+}
+
+document.getElementById("rezultats").value = dati;
+}
+</script>
+<input type="radio" name="vieniba" value="KiB" onclick="aprekinat()"> KiB
+<input type="radio" name="vieniba" value="KB" onclick="aprekinat()"> KB
+
+
+<input type="number" id="sekundes" onclick="resetForm()" placeholder="Sekundes">
+<script>
+function resetForm() {
+document.getElementById("forma").reset();
+document.getElementById("rezultats").value = "";
+}
+</script>
+
+</html>

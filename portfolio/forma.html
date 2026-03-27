@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Forma</title>
+</head>
+
+<body>
+
+<h2>Kalkulators</h2>
+
+<form>
+
+Skaitlis 1:
+<input type="number" id="a"><br><br>
+
+Skaitlis 2:
+<input type="number" id="b"><br><br>
+
+<button type="button" onclick="saskaitit()">+</button>
+<button type="button" onclick="atnemt()">-</button>
+<button type="button" onclick="dalit()">/</button>
+
+<input type="reset" value="Reset">
+
+</form>
+
+<p>Rezultāts: <span id="rez"></span></p>
+
+<script>
+
+function saskaitit(){
+let a = Number(document.getElementById("a").value);
+let b = Number(document.getElementById("b").value);
+document.getElementById("rez").innerHTML = a + b;
+}
+
+function atnemt(){
+let a = Number(document.getElementById("a").value);
+let b = Number(document.getElementById("b").value);
+document.getElementById("rez").innerHTML = a - b;
+}
+
+function dalit(){
+let a = Number(document.getElementById("a").value);
+let b = Number(document.getElementById("b").value);
+document.getElementById("rez").innerHTML = a / b;
+}
+
+</script>
+
+</body>
+</html>
