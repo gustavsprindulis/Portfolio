@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Video</title>
+
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+    body {
+        margin: 0;
+        font-family: 'Montserrat', sans-serif;
+        background-color: #f8f5f2;
+        color: #333;
+    }
+
+    header {
+        background-color: #111;
+        padding: 20px 0;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+    }
+
+    .container {
+        width: 90%;
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    .logo {
+        font-family: 'Playfair Display', serif;
+        font-size: 28px;
+        color: #d4af37;
+        float: left;
+    }
+
+    nav {
+        float: right;
+    }
+
+    nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav ul li {
+        display: inline-block;
+        position: relative;
+    }
+
+    nav ul li a {
+        display: block;
+        padding: 10px 20px;
+        text-decoration: none;
+        color: white;
+        font-weight: 500;
+        transition: 0.3s;
+    }
+
+    nav ul li a:hover {
+        color: #d4af37;
+    }
+
+    /* Dropdown */
+    nav ul li ul {
+        display: none;
+        position: absolute;
+        background-color: #222;
+        top: 40px;
+        min-width: 180px;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+
+    nav ul li:hover ul {
+        display: block;
+    }
+
+    nav ul li ul li {
+        display: block;
+    }
+
+    nav ul li ul li a {
+        padding: 10px 15px;
+    }
+
+    nav ul li ul li a:hover {
+        background-color: #333;
+    }
+
+    /* Clear floats */
+    header::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    /* Hero Section */
+    .hero {
+        height: 90vh;
+        background-color: #304770;
+            display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: white;
+        padding: 20px;
+    }
+
+    .hero h1 {
+        font-family: 'Playfair Display', serif;
+        font-size: 48px;
+        margin-bottom: 20px;
+    }
+
+    .hero p {
+        font-size: 18px;
+        max-width: 600px;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    .btn {
+        padding: 12px 30px;
+        background-color: #d4af37;
+        color: #111;
+        text-decoration: none;
+        font-weight: 600;
+        border-radius: 30px;
+        transition: 0.3s;
+    }
+
+    .btn:hover {
+        background-color: #b8962e;
+    }
+
+    /* Section */
+    section {
+        padding: 80px 20px;
+        text-align: center;
+    }
+
+    section h2 {
+        font-family: 'Playfair Display', serif;
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+
+    footer {
+        background-color: #111;
+        color: #aaa;
+        text-align: center;
+        padding: 20px;
+        font-size: 14px;
+    }
+
+    /* Responsive */
+    @media(max-width: 768px) {
+        nav {
+            float: none;
+            text-align: center;
+        }
+        .logo {
+            float: none;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        nav ul li {
+            display: block;
+        }
+        nav ul li ul {
+            position: static;
+        }
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="container">
+        <div class="logo">Video</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Sākums</a></li>
+                <li>
+                    <a href="#">Attēlu apstrāde ▾</a>
+                    <ul>
+                        <li><a href="rastgrafika.html">Rastrgrafika</a></li>
+                        <li><a href="vektorgrafika.html">Vektorgrafika</a></li>
+                    </ul>
+                </li>
+                <li><a href="tekstapstrade.html">Teksta apstrāde</a></li>
+                <li><a href="izklajlapas.html">Izklājlapas</a></li>
+                <li><a href="video.html">Video</a></li>
+                <li><a href="otrais.html">Individuālā tēma</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<div class="hero">
+    <div>
+         <iframe width="560" height="315"
+src="https://www.youtube.com/embed/SVMYQwNgvYY"
+title="YouTube video player"
+frameborder="0"
+allowfullscreen>
+</iframe>
+
+</div>
+</div>
+
+<section>
+    
+</section>
+
+
+</body>
+</html>

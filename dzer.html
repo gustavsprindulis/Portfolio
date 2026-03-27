@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>dzer</title>
+</head>
+<body>
+
+<h2>Izvēlies</h2>
+
+<label>
+  <input type="checkbox" value="2" onchange="calculateTotal()"> Kafija (€2)
+</label><br>
+
+<label>
+  <input type="checkbox" value="3" onchange="calculateTotal()"> Tēja (€3)
+</label><br>
+
+<label>
+  <input type="checkbox" value="4" onchange="calculateTotal()"> Sula (€4)
+</label><br>
+
+<label>
+  <input type="checkbox" value="1" onchange="calculateTotal()"> Ūdens (€1)
+</label><br><br>
+
+<h3>Kopā: €<span id="total">0</span></h3>
+
+<script>
+function calculateTotal() {
+    let checkboxes = document.querySelectorAll('input[type="checkbox"]');
+    let total = 0;
+
+    checkboxes.forEach(function(box) {
+        if (box.checked) {
+            total += parseFloat(box.value);
+        }
+    });
+
+    document.getElementById("total").textContent = total;
+}
+</script>
+
+</body>
+</html>

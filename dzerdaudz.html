@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+
+</head>
+<body>
+
+
+<label><input type="checkbox" value="Kafija"> Kafija</label><br>
+<label><input type="checkbox" value="Tēja"> Tēja</label><br>
+<label><input type="checkbox" value="Sula"> Sula</label><br>
+<label><input type="checkbox" value="Ūdens">Ūdens</label><br><br>
+
+<button onclick="showChecked()">Izvēlētais</button>
+
+<p id="result"></p>
+
+<script>
+function showChecked() {
+    let checkboxes = document.querySelectorAll('input[type="checkbox"]');
+    let selected = [];
+
+    checkboxes.forEach(function(box) {
+        if (box.checked) {
+            selected.push(box.value);
+        }
+    });
+
+    document.getElementById("result").textContent =
+        selected.length > 0 
+        ? "You selected: " + selected.join(", ")
+        : "Nothing selected";
+}
+</script>
+</body>
+</html>
